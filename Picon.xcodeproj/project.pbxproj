@@ -83,6 +83,7 @@
 				3070B9CF2106791000EB34E1 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		3070B9CF2106791000EB34E1 /* Products */ = {
 			isa = PBXGroup;
@@ -193,13 +194,16 @@
 				TargetAttributes = {
 					3070B9CD2106791000EB34E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					3070B9E12106791200EB34E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 3070B9CD2106791000EB34E1;
 					};
 					3070B9EC2106791200EB34E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 3070B9CD2106791000EB34E1;
 					};
 				};
@@ -439,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.Picon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +461,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.Picon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -477,7 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.PiconTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picon.app/Picon";
 			};
@@ -498,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.PiconTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picon.app/Picon";
 			};
@@ -518,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.PiconUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Picon;
 			};
@@ -538,7 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Picanol.PiconUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Picon;
 			};
