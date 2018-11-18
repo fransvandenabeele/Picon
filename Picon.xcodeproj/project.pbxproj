@@ -14,6 +14,7 @@
 		3070B9DC2106791200EB34E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3070B9DA2106791200EB34E1 /* LaunchScreen.storyboard */; };
 		3070B9E72106791200EB34E1 /* PiconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070B9E62106791200EB34E1 /* PiconTests.swift */; };
 		3070B9F22106791200EB34E1 /* PiconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070B9F12106791200EB34E1 /* PiconUITests.swift */; };
+		80F1FE48219B645B004B75C3 /* Picon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F1FE47219B645B004B75C3 /* Picon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3070B9ED2106791200EB34E1 /* PiconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3070B9F12106791200EB34E1 /* PiconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiconUITests.swift; sourceTree = "<group>"; };
 		3070B9F32106791200EB34E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F1FE47219B645B004B75C3 /* Picon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3070B9D12106791000EB34E1 /* AppDelegate.swift */,
 				3070B9D32106791000EB34E1 /* ViewController.swift */,
 				3070B9D52106791000EB34E1 /* Main.storyboard */,
+				80F1FE47219B645B004B75C3 /* Picon.swift */,
 				3070B9D82106791200EB34E1 /* Assets.xcassets */,
 				3070B9DA2106791200EB34E1 /* LaunchScreen.storyboard */,
 				3070B9DD2106791200EB34E1 /* Info.plist */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F1FE48219B645B004B75C3 /* Picon.swift in Sources */,
 				3070B9D42106791000EB34E1 /* ViewController.swift in Sources */,
 				3070B9D22106791000EB34E1 /* AppDelegate.swift in Sources */,
 			);
